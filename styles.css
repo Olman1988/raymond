@@ -1,0 +1,115 @@
+
+nav{
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.25); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.25);
+background-color: rgba(255, 0, 0, 0.5) !important
+    
+}
+#navn {
+    background-color: rgba(146, 76, 248, 0.3) ! important;
+}
+
+
+body header .nav_inicio{
+    margin-left: 40%;
+    
+}
+body header .nav_inicio {
+    
+}
+body header .nav_inicio li{
+    padding: 20px 20px;
+    font-size: 20px;
+    
+}
+.myButton {
+	
+	background-color:#ae0cde;
+	border-radius:50px;
+	
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	text-decoration:none;
+	text-shadow:-1px -1px 0px gray;
+        padding: 15px 50px;
+        float:right;
+        margin: 0 20px 20px 0;
+}
+.myButton:hover {
+	background-color:#612694;
+        color:white;
+        text-decoration:none;
+}
+li{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+li:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    	background-color:#612694;
+
+    
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}   
+header img {
+    min-width: 100vw;
+   z-index: -1;
+}
+.header_text {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 6px 31px 2px rgba(0,0,0,0.32); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 6px 31px 2px rgba(0,0,0,0.32);
+border-radius: 10px;
+}
+.imgserv{
+    height:450px; width:100%
+}
+#services_div_img{
+    
+    height: 500px;
+   
+}
+section div .img_services{
+    overflow-y: hidden;
+     cursor:pointer;
+    background-color: rgba(101, 0, 81, 0.4);
+}
+section div .img_services img{
+    margin-top:5%;
+    height:80%;
+    width:100%;
+    paddin-bottom: 20px;
+    padding:0;
+    
+}
+section div .services_text{
+    overflow-y: hidden;
+    background-color: rgba(101, 0, 81, 0.4);
+    height: 70%;
+    width:80%;
+    margin:10% 7%;
+}
+section div .img_services .services_text{
+    
+    z-index: 1;
+transform:translateY(700px);
+-moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+color:white;
+
+}
+section div .img_services:hover .services_text{
+    
+transform:translateY(0);
+
+
+}
